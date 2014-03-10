@@ -169,6 +169,10 @@ nav li.nav-about a:before{
 	margin-left: -1em;
 	font-size: 200%;
 }
+.errata #errata-main a:link,
+.errata #errata-main a:visited{
+	color: 900 !important;
+}
 .errata p:before{
 	content:"❦";
 	font-family: Meiryo;
