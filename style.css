@@ -169,8 +169,9 @@ nav li.nav-about a:before{
 	margin-left: -1em;
 	font-size: 200%;
 }
-.errata #errata-main a:link,
-.errata #errata-main a:visited{
+/*Why is this not working? I did I do something dumb? #errata-main is a child of errata.html. I tried every syntax that seemed logical and nothing worked. Links still working as defined in ll. 10-19*/
+#errata-main a:link,
+#errata-main a:visited{
 	color: 900 !important;
 }
 .errata p:before{
