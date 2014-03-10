@@ -97,14 +97,25 @@ nav li.nav-about a:before{
 	display: block;
 	font-size: 600%;
 }
-.cv p:before{
+.cv #navigation{
+	width: 1000px;
+	position: fixed;
+	top:0;
+	background-color: #fdf7dd;
+	z-index: 100;
+	margin-left: -50px;
+}
+.cv #main{
+	width: 850px;
+	padding-top: 250px; 
+}
+.cv h2:before{
 	content:"¶";
 	font-family: Gabriola;
 	color: #900;
 	display: block;
 	float: left;
 	margin-left: -.75em;
-	font-size: 200%;
 }
 /*.cv ul li{
 	list-style: none;
@@ -139,6 +150,7 @@ nav li.nav-about a:before{
 	-moz-transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
+	z-index: 0;
 }
 .about p:before{
 	content:"☝";
