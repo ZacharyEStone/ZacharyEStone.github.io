@@ -7,6 +7,10 @@ body{
 	margin: 0 auto;
 	color: hsla(0,0%,0%,0.8);
 }
+
+.book-title {
+	font-style: italic;
+}
 a:link,
 a:visited,
 a:active {
